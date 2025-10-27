@@ -14,6 +14,8 @@ module.exports = {
             "./App": "./src/App",
             // Could also expose individual components
             "./HelloWorldTool": "./src/App",
+            // Expose menu configuration for dynamic navigation
+            "./menuConfig": "./src/menuConfig",
           },
           shared: {
             ...deps,
