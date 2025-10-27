@@ -27,6 +27,7 @@
   },
   "scripts": {
     "start": "PORT=3001 craco start",
+    "prebuild": "node scripts/generate-version.js",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
